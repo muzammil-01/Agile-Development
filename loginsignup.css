@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("./pics/background.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    color: var(--secandarycolor);
+    border-bottom: 2px solid var(--secandarycolor);
+    background-color: #744ae826;
+    background-image: linear-gradient(27deg, #662c886c 0%, #0e2c526c 94%);
+}
+.container{
+    background-color: white;
+    height: 580px;
+    width: 450px;
+    box-shadow: 5px 5px 10px rgba(138, 111, 138, 0.267);
+}
+form{
+    width: 300px;
+    margin-left: 86px;
+}
+form label{
+    display: flex;
+    font-size: 1.3em;
+    color: black;
+        
+}
+#signup label{
+    margin-block: 5px;
+    display: flex;
+    font-size: 1.3em;
+    color: black;
+    
+}
+h1{
+    margin-block: 50px;
+    text-align: center;
+    color: black;
+}
+
+#signup input{
+    color: black;
+    font-size: 1.2em;
+   width: 100%;
+   padding: 10px 20px 7px 7px;
+    outline: none;
+    border: none;
+border-bottom: 1px solid;
+}
+#signin input{
+    color: black;
+    font-size: 1.2em;
+   width: 100%;
+   padding: 10px 20px 7px 7px;
+    margin-block: 20px;
+    outline: none;
+    background: transparent;border: none;border-bottom: 1px solid rgb(138, 111, 138);
+}
+form p{
+    color: black;
+}
+form p a{
+    color:blue ;
+    text-decoration: none;
+}
+form p a:hover{
+    box-shadow: 2px 2px 2px rgb(138, 111, 138);
+    background-color: rgb(138, 111, 138);
+    color: white;
+    border-radius: 5px;
+}
+form #signin{
+    margin-block: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: linear-gradient(37deg, rgb(23, 23, 39) 28%, rgb(52, 52, 110) 98%);
+    border: none;
+    font-size: 1.2em;
+    color:rgb(138, 111, 138) ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form #signin:hover{
+    box-shadow: 5px 5px 10px rgb(23, 23, 39);
+    background: linear-gradient(37deg, rgb(52, 52, 110) 8%, rgb(23, 23, 39) 98%);
+}
+
+
+
+.container1 {   
+    background-color: white;
+   border-top: 2px solid #8e75e27a;
+    border-left: 2px solid #9f8cdb7a;
+    border-radius: 9px;
+    height: 600px;
+    width: 480px;
+    box-shadow: 5px 5px 10px rgba(138, 111, 138, 0.267);
+}
+
+form #signup{
+    margin-block: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: linear-gradient(37deg, rgb(23, 23, 39) 28%, rgb(52, 52, 110) 98%);
+    border: none;
+    font-size: 1.2em;
+    color:rgb(138, 111, 138) ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form #signup:hover{
+    box-shadow: 5px 5px 10px rgb(23, 23, 39);
+    background: linear-gradient(37deg, rgb(52, 52, 110) 8%, rgb(23, 23, 39) 98%);
+}
+
+:root{
+    --primarycolor:rgba(23, 23, 39, 0.431);
+    --secandarycolor:rgb(138, 111, 138);
+}
+
